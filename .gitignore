@@ -281,3 +281,4 @@ sympy-plots-for-*.tex/
 
 # Custom
 _build/
+/.project
