@@ -64,7 +64,9 @@
 \usepackage{titling} % Customizing the title section
 
 \usepackage[pagebackref]{hyperref} % For hyperlinks in the PDF
-
+\makeatletter
+\newcommand{\verbatimfont}[1]{\def\verbatim@font{#1}}%
+\makeatother
 %----------------------------------------------------------------------------------------
 %	TITLE SECTION
 %----------------------------------------------------------------------------------------
@@ -222,6 +224,7 @@ of the Blockchain a reality.
 \subsection{Contact}
 
 \href{mailto:blockchain.lab@cceg.org.uk}{blockchain.lab@cceg.org.uk}
+\verbatimfont{\itshape\ttfamily}
 \begin{verbatim}
 IoV Blockchain Alliance for Good
 Centre for Citizenship, Enterprise and Governance
